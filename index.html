@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Google Maps APIs</title>
+
+	<link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+        <div id="map"></div>
+        
+        <div id="page0">
+        <a href="#" onclick="showme(0)"><div id="list">
+            <span> 541 Interstate 45 <br/> Huntsville, TX  77320</span>
+        </div></a>
+           
+        <a href="#" onclick="showme(1)"><div id="list">
+            <span> 540 Interestate 45 S <br> Huntsville, TX 77320 </span>
+        </div></a>
+    
+        <a href="#" onclick="showme(2)"><div id="list">
+            <span> 102 Medical Park Ln <br> Huntsville, TX 77340 </span>
+        </div></a>
+    
+        <a href="#" onclick="showme(3)"><div id="list">
+            <span> 600 S Conroe Medical Dr <br> Conroe, TX 77304 </span>
+        </div></a>
+        
+        <a href="#" onclick="showme(4)"><div id="list">
+            <span> 690 S Loop 336 W (Land Only) <br> Conroe, TX 77304 </span>
+        </div></a>
+    
+        <a href="#" onclick="showme(5)"><div id="list">
+            <span> 704 N Thompson St <br> Conroe, TX 77301 </span>
+        </div></a>
+    
+        <a href="#" onclick="showme(6)"><div id="list">
+            <span> 690 S Loop 336 (Building) <br> Conroe, TX 77304 </span>
+        </div></a>
+    
+        <a href="#" onclick="showme(7)"><div id="list">
+            <span> 600 River Pointe Dr <br> Conroe, TX 77304 </span>
+        </div></a>
+    
+        <a href="#" onclick="showme(8)"><div id="list">
+            <span> 650 S Conroe Medical Dr <br> Conroe, TX 77304 </span>
+        </div></a>
+            
+        <a href="#" onclick="resetview()"><div id="reset">
+        <button id="nextpage1" onclick="showpage2()"> Page 2 &nbsp;>> </button>
+        <button> Reset View </button>
+        </div></a>
+        </div>
+    
+        <div id="page1">
+        <a href="#" onclick="showme(9)"><div id="list">
+            <span> 3607 N Loop 336 <br> Conroe, TX 77304 </span>
+        </div></a>
+    
+        <a href="#" onclick="showme(10)"><div id="list">
+            <span> 800 Riverwood Ct <br> Conroe, TX 77304 </span>
+        </div></a>
+    
+        <a href="#" onclick="showme(11)"><div id="list">
+            <span> 100 Medical Center Blvd <br> Conroe, TX 77304 </span>
+        </div></a>
+    
+        <a href="#" onclick="showme(12)"><div id="list">
+            <span> 1020 Riverwood Ct <br> Conroe, TX 77304 </span>
+        </div></a>
+    
+        <a href="#" onclick="showme(13)"><div id="list">
+            <span> 28517 Spring Trail Ridge <br> Spring, TX 77386 </span>
+        </div></a>
+    
+        <a href="#" onclick="showme(14)"><div id="list">
+            <span> 403 Ogletree St <br> Livingston, TX 77351 </span>
+        </div></a>
+    
+        <a href="#" onclick="showme(15)"><div id="list">
+            <span> 21205-21123 Eva St <br> Montgomery, TX 77356 </span>
+        </div></a>
+    
+        <a href="#" onclick="showme(16)"><div id="list">
+            <span> 1485 FM 1960 Bypass E <br> Humble, TX 77338 </span>
+        </div></a>
+            
+        <a href="#" onclick="resetview()"><div id="reset">
+            <button id="prevpage0" onclick="showpage1()"> << &nbsp; Page 1 </button>
+            <button> Reset View </button>
+        </div></a>
+        </div>
+    
+        
+    
+	<script src="promed-script.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj7vI6Ufk-HCVcpczRwLUrJZEfTrkzpQ0&callback=initMap"></script>
+</div>
+</body>
+
+</html>
