@@ -19,7 +19,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_2aafcb57a8924d8a92b493e270048431~mv2.jpg"></div>\
                     <div id="column"><strong>Interstate-45</strong><br>\
 					541 Interstate 45 <br> Huntsville, TX 77320<br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/541-i45">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/541-i45">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -32,7 +32,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_bb7991bc455348f780a7e53b19639c99~mv2.jpg"></div>\
                     <div id="column"><strong>Interstate-45 S</strong><br>\
 					540 Interstate 45 S <br> Huntsville, TX 77320<br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/540-i45s">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/540-i45s">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -45,7 +45,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_c64be2c86d9542aab2accb5d634d7dda~mv2.jpg"></div>\
                     <div id="column"><strong>Medical Park</strong><br>\
 					102 Medical Park Ln<br> Huntsville, TX 77320<br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/102-medical-park-dr">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/102-medical-park-dr">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -58,7 +58,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_7c3aacdcc8f14e90a8a555787d8268eb~mv2.jpg"></div>\
                     <div id="column"><strong>S Conroe Medical</strong><br>\
 					600 S Conroe Medical Dr<br> Conroe, TX 77304 <br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/600-s-conroe-medical-dr">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/600-s-conroe-medical-dr">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -71,7 +71,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_71178379feae486986cbb1909a44f845~mv2.jpg"></div>\
                     <div id="column"><strong>S Loop 336 (Land)</strong><br>\
 					690 S Loop 336 W <br> Conroe, TX 77304<br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/690-s-loop-336-w">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/690-s-loop-336-w">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -84,7 +84,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_458766e83dcd491782d04bb1246cd6cd~mv2.jpg"></div>\
                     <div id="column"><strong>N. Thompson</strong><br>\
 					704 N. Thompson Street <br> Conroe, TX 77301<br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/704-n-thompson-st-lease">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/704-n-thompson-st-lease">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -97,7 +97,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_4c345f41ea1c4734b47671ab5fd19261~mv2.jpg"></div>\
                     <div id="column"><strong>S Loop 336 (Building)</strong><br>\
 					690 S Loop 336 <br> Conroe, TX 77304<br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/690-s-loop-336-bldg">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/690-s-loop-336-bldg">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -110,7 +110,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_1786240e0cd1414c9af97a932a6a82ff~mv2.jpg"></div>\
                     <div id="column"><strong>River Pointe</strong><br>\
 					600 River Pointe Dr <br> Conroe, TX 77304<br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/600-river-pointe-dr">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/600-river-pointe-dr">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -123,7 +123,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_f46900fe1a534144a072a834c992f084~mv2.jpg"></div>\
                     <div id="column"><strong>Conroe Medical Drive</strong><br>\
 					650 Conroe Medical Dr <br> Conroe, TX 77304<br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/650-s-conroe-medical-dr">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/650-s-conroe-medical-dr">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -136,7 +136,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_95c568213ebb4c93b3d2e7150b87c3e3~mv2.jpg"></div>\
                     <div id="column"><strong>N Loop 336</strong><br>\
 					3607 N Loop 336 <br> Conroe, TX 77304<br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/3607-n-loop-336">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/3607-n-loop-336">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -149,7 +149,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_18923b972a29408db765226c097c9815~mv2.jpg"></div>\
                     <div id="column"><strong>Riverwood Ct</strong><br>\
 					800 Riverwood Ct <br> Conroe, TX 77304<br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/800-riverwood-ct-lease">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/800-riverwood-ct-lease">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -162,7 +162,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_84fd9921ac3146d3983932af1cc9d19f~mv2.jpg"></div>\
                     <div id="column"><strong>Medical Center Blvd</strong><br>\
 					100 Medical Center Blvd <br> Conroe, TX 77304<br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/100-medical-center-blvd">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/100-medical-center-blvd">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -175,7 +175,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_b22015455da14ced9c26a0d0be4f8790~mv2.jpg"></div>\
                     <div id="column"><strong>Riverwood Ct</strong><br>\
 					1020 Riverwood Ct <br> Conroe, TX 77304 <br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/1020-riverwood-ct">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/1020-riverwood-ct">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -188,7 +188,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_81f8cb02bbd541cc8d7e2d8b7c46658f~mv2.jpg"></div>\
                     <div id="column"><strong>Spring Trail Ridge</strong><br>\
 					28517 Spring Trail Ridge <br> Spring, TX 77386 <br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/28517-spring-trail-ridge">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/28517-spring-trail-ridge">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -201,7 +201,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_414234fa6b63472c8e98b6f35e0a06f1~mv2.jpg"></div>\
                     <div id="column"><strong>Ogletree St</strong><br>\
 					403 Ogletree Street <br> Livingston, TX 77351 <br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/403-ogletree">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/403-ogletree">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -214,7 +214,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_0c14fad8887c449089ef52e7888da799~mv2.jpg"></div>\
                     <div id="column"><strong>Eva St</strong><br>\
 					21205-21123 Eva Street <br> Montgomery, TX 77356 <br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/21105-eva-st">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/21105-eva-st">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
@@ -227,7 +227,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"><img src="https://static.wixstatic.com/media/d12b1c_9385a5568e7440f2bc16dd0cfe772756~mv2.jpg"></div>\
                     <div id="column"><strong>Bypass E</strong><br>\
 					1485 FM 1960 Bypass E <br> Humble, TX 77338 <br>\
-					<a href="https://becausemarketing.wixsite.com/promedrealty/1485-fm-1960-bype">View Listing</a></div></div>',
+					<a target="_parent" href="https://becausemarketing.wixsite.com/promedrealty/1485-fm-1960-bype">View Listing</a></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
