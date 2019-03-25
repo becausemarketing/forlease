@@ -8,99 +8,330 @@
 
 	<link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 
 <body>
-        <div id="map"></div>
-        
-        <div id="page0">
-        <a href="#" onclick="showme(0)"><div id="list">
-            <span> 541 Interstate 45 <br/> Huntsville, TX  77320</span>
-        </div></a>
-           
-        <a href="#" onclick="showme(1)"><div id="list">
-            <span> 540 Interestate 45 S <br> Huntsville, TX 77320 </span>
-        </div></a>
     
-        <a href="#" onclick="showme(2)"><div id="list">
-            <span> 102 Medical Park Ln <br> Huntsville, TX 77340 </span>
-        </div></a>
-    
-        <a href="#" onclick="showme(3)"><div id="list">
-            <span> 600 S Conroe Medical Dr <br> Conroe, TX 77304 </span>
-        </div></a>
-        
-        <a href="#" onclick="showme(4)"><div id="list">
-            <span> 690 S Loop 336 W (Land Only) <br> Conroe, TX 77304 </span>
-        </div></a>
-    
-        <a href="#" onclick="showme(5)"><div id="list">
-            <span> 704 N Thompson St <br> Conroe, TX 77301 </span>
-        </div></a>
-    
-        <a href="#" onclick="showme(6)"><div id="list">
-            <span> 690 S Loop 336 (Building) <br> Conroe, TX 77304 </span>
-        </div></a>
-    
-        <a href="#" onclick="showme(7)"><div id="list">
-            <span> 600 River Pointe Dr <br> Conroe, TX 77304 </span>
-        </div></a>
-    
-        <a href="#" onclick="showme(8)"><div id="list">
-            <span> 650 S Conroe Medical Dr <br> Conroe, TX 77304 </span>
-        </div></a>
+    <div id="map"></div>
             
-        <a href="#" onclick="resetview()"><div id="reset">
-        <button id="nextpage1" onclick="showpage2()"> Page 2 &nbsp;>> </button>
-        <button> Reset View </button>
-        </div></a>
-        </div>
-    
-        <div id="page1">
-        <a href="#" onclick="showme(9)"><div id="list">
-            <span> 3607 N Loop 336 <br> Conroe, TX 77304 </span>
-        </div></a>
-    
-        <a href="#" onclick="showme(10)"><div id="list">
-            <span> 800 Riverwood Ct <br> Conroe, TX 77304 </span>
-        </div></a>
-    
-        <a href="#" onclick="showme(11)"><div id="list">
-            <span> 100 Medical Center Blvd <br> Conroe, TX 77304 </span>
-        </div></a>
-    
-        <a href="#" onclick="showme(12)"><div id="list">
-            <span> 1020 Riverwood Ct <br> Conroe, TX 77304 </span>
-        </div></a>
-    
-        <a href="#" onclick="showme(13)"><div id="list">
-            <span> 28517 Spring Trail Ridge <br> Spring, TX 77386 </span>
-        </div></a>
-    
-        <a href="#" onclick="showme(14)"><div id="list">
-            <span> 403 Ogletree St <br> Livingston, TX 77351 </span>
-        </div></a>
-    
-        <a href="#" onclick="showme(15)"><div id="list">
-            <span> 21205-21123 Eva St <br> Montgomery, TX 77356 </span>
-        </div></a>
-    
-        <a href="#" onclick="showme(16)"><div id="list">
-            <span> 1485 FM 1960 Bypass E <br> Humble, TX 77338 </span>
-        </div></a>
+                <a href="#" onclick="resetview()"><div id="reset">
+                    <button> Reset View </button>
+                </div></a>
+        <div id="list">
+        <div class="row">
             
-        <a href="#" onclick="resetview()"><div id="reset">
-            <button id="prevpage0" onclick="showpage1()"> << &nbsp; Page 1 </button>
-            <button> Reset View </button>
-        </div></a>
-        </div>
-    
-        
-    
-	<script src="promed-script.js"></script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj7vI6Ufk-HCVcpczRwLUrJZEfTrkzpQ0&callback=initMap"></script>
-</div>
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_b22015455da14ced9c26a0d0be4f8790~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 1020 Riverwood Court <br> Conroe, TX 77304</p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(0)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_7c3aacdcc8f14e90a8a555787d8268eb~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 600 S Conroe Medical Drive <br> Conroe, TX 77304  </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(1)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_84fd9921ac3146d3983932af1cc9d19f~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 100 Medical Center Blvd <br> Conroe, TX 77304 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(2)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_a367fb5e38ab4429af3c1ac1b2cc1030~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 690 S Loop 336 (Bldg) <br> Conroe, TX 77304 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(3)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_71178379feae486986cbb1909a44f845~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 690 S Loop 336 W (Land) <br> Conroe, TX 77304 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(4)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_458766e83dcd491782d04bb1246cd6cd~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 704 N. Thompson Street <br> Conroe, TX 77304</p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn-small" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(5)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_03c1a5efd94e48ac8c7ca306e3545bf4~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 800 Riverwood Court<br> Conroe, TX 77304 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(6)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_1786240e0cd1414c9af97a932a6a82ff~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 600 River Pointe Dr<br> Conroe, TX 77304 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(7)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_f46900fe1a534144a072a834c992f084~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 650 S Conroe Medical Dr<br> Conroe, TX 77304 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(8)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_9d4d7c0ad6b0404ba266c80164cad671~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 2101 S Loop 336 W <br> Conroe, TX 77304 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(9)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_c790821a8d154dec8fd0ba0555a8b919~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 503 Medical Center Blvd <br> Conroe, TX 77304 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(10)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_95c568213ebb4c93b3d2e7150b87c3e3~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 3607 N Loop 336 <br> Conroe, TX 77304 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(11)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_9a3e2e25351c46e180e25f6dbef88c47~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 1485 FM 1960 Byp E <br> Humble, TX 77338 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(12)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_ffd63a468aa84dfe883f59da7a73c970~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 403 Ogletree St <br> Livingston, TX 77351 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(13)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_2aafcb57a8924d8a92b493e270048431~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 541 Interstate 45 <br> Huntsville, TX 77320 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(14)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_87da2cb4e552432b83386b6ec62adb75~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 540 Interstate 45 S <br> Huntsville, TX 77340 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(15)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+             <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_c64be2c86d9542aab2accb5d634d7dda~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 102 Medical Park Ln <br> Huntsville, TX 77340 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(16)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_4ceb0380f38d4825b6374cfba0af5469~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 28517 Spring Trail Ridge <br> Spring, TX 77386 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(17)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_0c14fad8887c449089ef52e7888da799~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 21105-21123 Eva St <br> Montgomery, TX 77356 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(18)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col s12 m4 l2">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="https://static.wixstatic.com/media/d12b1c_da77e373c88c40e281ceb9ec3acf72aa~mv2.jpg">
+                </div>
+                <div class="card-content">
+                  <p> 303 S Robb St <br> Trinity, TX 75862 </p>
+                </div>
+                <div class="card-action">
+                  <a class="waves-effect waves-light light-blue darken-4 btn" href="#">View Listing</a>
+                  <a id="mapbutton" class="waves-effect waves-light grey btn-small" onclick="showme(19)" href="#"><i class="material-icons left">location_on</i>Map</a>
+                </div>
+              </div>
+            </div>
+            
+            </div></div>
+            
+            
+                    
+            
+            <script src="promed-script.js"></script>
+	        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj7vI6Ufk-HCVcpczRwLUrJZEfTrkzpQ0&callback=initMap"></script>
 </body>
 
 </html>
