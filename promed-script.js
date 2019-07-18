@@ -214,6 +214,17 @@ function initMap() {
 		lat: 30.942782,
 		long: -95.374828
 	};
+    
+    var riverpointe400 = {
+		info: '<<div id="row"><div id="column"></div><div id="column"><strong>400 River Pointe Dr</strong><br></div></div>',
+        icon: {
+            url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
+            scaledSize: new google.maps.Size(96, 96)
+        },
+		lat: 30.282375,
+		long: -95.464031   
+	};
+
 
 	var locations = [
       [riverwood1020.info, riverwood1020.lat, riverwood1020.long, riverwood1020.icon, 0],
@@ -236,6 +247,7 @@ function initMap() {
       [springtrail.info, springtrail.lat, springtrail.long, springtrail.icon, 17],
       [evast.info, evast.lat, evast.long, evast.icon, 18],
       [srobb.info, srobb.lat, srobb.long, srobb.icon, 19],
+      [riverpointe400.info, riverpointe400.lat, riverpointe400.long, riverpointe400.icon, 20],
     ];
 
 	var map = new google.maps.Map(document.getElementById('map'), {
