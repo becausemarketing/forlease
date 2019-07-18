@@ -216,7 +216,7 @@ function initMap() {
 	};
     
     var riverpointe400 = {
-		info: '<<div id="row"><div id="column"></div><div id="column"><strong>400 River Pointe Dr</strong><br></div></div>',
+		info: '<div id="row"><div id="column"></div><div id="column"><strong>400 River Pointe Dr</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(96, 96)
