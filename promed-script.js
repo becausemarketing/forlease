@@ -19,7 +19,7 @@ function initMap() {
 		info: '<<div id="row"><div id="column"></div><div id="column"><strong>541 Interstate 45</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.715256,
 		long: -95.567661  
@@ -29,7 +29,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>540 Interstate 45 S</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.697614,
 		long: -95.553887
@@ -39,7 +39,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>102 Medical Park Ln</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.697204,
 		long: -95.560304 
@@ -49,7 +49,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>600 S Conroe Medical Dr</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.283831,
 		long: -95.473504  
@@ -59,7 +59,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>690 S Loop 336 W (Land)</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.282934,
 		long: -95.471890  
@@ -69,7 +69,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>704 N. Thompson Street</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.315419,
 		long: -95.457839 
@@ -79,7 +79,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>690 S Loop 336 (Bldg)</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.282934,
 		long: -95.471890  
@@ -89,7 +89,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>600 River Pointe Dr</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.283066,
 		long: -95.465188 
@@ -99,7 +99,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>650 Conroe Medical Dr</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.284960,
 		long: -95.472372
@@ -109,7 +109,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>3607 N Loop 336</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.313211,
 		long: -95.504021 
@@ -119,7 +119,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>800 Riverwood Ct</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.284683,
 		long: -95.465219
@@ -129,7 +129,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>100 Medical Center Blvd</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.287212,
 		long: -95.464819
@@ -139,7 +139,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>1020 Riverwood Ct</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.283982,
 		long: -95.465733
@@ -149,7 +149,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>28517 Spring Trail Ridge</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.101683,
 		long: -95.465733
@@ -159,7 +159,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>403 Ogletree St</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.732673,
 		long: -94.938553
@@ -169,7 +169,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>21105-21123 Eva St</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
         lat: 30.388312,
 		long: -95.697980
@@ -179,7 +179,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>1485 FM 1960 Byp E</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.005174,
 		long: -95.251618
@@ -189,7 +189,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>2101 S Loop 336 W</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.284452,
 		long: -95.483874
@@ -199,7 +199,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>503 Medical Center Blvd</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.283246,
 		long: -95.466014
@@ -209,7 +209,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>303 S Robb Std</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.942782,
 		long: -95.374828
@@ -219,7 +219,7 @@ function initMap() {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>400 River Pointe Dr</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
-            scaledSize: new google.maps.Size(96, 96)
+            scaledSize: new google.maps.Size(64, 64)
         },
 		lat: 30.282375,
 		long: -95.464031   
