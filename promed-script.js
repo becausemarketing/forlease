@@ -185,14 +185,14 @@ function initMap() {
 		long: -95.251618
 	};
 
-    var sloop336_2101 = {
-		info: '<div id="row"><div id="column"></div><div id="column"><strong>2101 S Loop 336 W</strong><br></div></div>',
+    var montgomery804 = {
+		info: '<div id="row"><div id="column"></div><div id="column"><strong>804 W Montgomery St</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(64, 64)
         },
-		lat: 30.284452,
-		long: -95.483874
+		lat: 30.423046,
+		long: -95.487589
 	};
     
     var medcenterblvd503 = {
@@ -224,6 +224,26 @@ function initMap() {
 		lat: 30.282375,
 		long: -95.464031   
 	};
+    
+    var mckay18648 = {
+		info: '<div id="row"><div id="column"></div><div id="column"><strong>18648 McKay Dr</strong><br></div></div>',
+        icon: {
+            url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
+            scaledSize: new google.maps.Size(64, 64)
+        },
+		lat: 29.991319,
+		long: -95.277507   
+	};
+    
+    var hwy105_18441 = {
+		info: '<div id="row"><div id="column"></div><div id="column"><strong>18441 Highway 105 W</strong><br></div></div>',
+        icon: {
+            url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
+            scaledSize: new google.maps.Size(64, 64)
+        },
+		lat: 30.379445,
+		long: -95.646593   
+	};
 
 
 	var locations = [
@@ -236,7 +256,7 @@ function initMap() {
       [riverwood.info, riverwood.lat, riverwood.long, riverwood.icon, 6],
       [riverpointe.info, riverpointe.lat, riverpointe.long, riverpointe.icon, 7],
       [conmedr650.info, conmedr650.lat, conmedr650.long, conmedr650.icon, 8],
-      [sloop336_2101.info, sloop336_2101.lat, sloop336_2101.long, sloop336_2101.icon, 9],
+      [montgomery804.info, montgomery804.lat, montgomery804.long, montgomery804.icon, 9],
       [medcenterblvd503.info, medcenterblvd503.lat, medcenterblvd503.long, medcenterblvd503.icon, 10],
       [nloop336.info, nloop336.lat, nloop336.long, nloop336.icon, 11],
       [bypasse.info, bypasse.lat, bypasse.long, bypasse.icon, 12],
@@ -248,6 +268,8 @@ function initMap() {
       [evast.info, evast.lat, evast.long, evast.icon, 18],
       [hwy105_18059.info, hwy105_18059.lat, hwy105_18059.long, hwy105_18059.icon, 19],
       [riverpointe400.info, riverpointe400.lat, riverpointe400.long, riverpointe400.icon, 20],
+      [mckay18648.info, mckay18648.lat, mckay18648.long, mckay18648.icon, 21],
+      [hwy105_18441.info, hwy105_18441.lat, hwy105_18441.long, hwy105_18441.icon, 22],
     ];
 
 	var map = new google.maps.Map(document.getElementById('map'), {
