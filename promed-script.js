@@ -205,14 +205,14 @@ function initMap() {
 		long: -95.466014
 	};
     
-    var srobb = {
-		info: '<div id="row"><div id="column"></div><div id="column"><strong>303 S Robb Std</strong><br></div></div>',
+    var hwy105_18059 = {
+		info: '<div id="row"><div id="column"></div><div id="column"><strong>18059 Highway 105 W </strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
             scaledSize: new google.maps.Size(64, 64)
         },
-		lat: 30.942782,
-		long: -95.374828
+		lat: 30.377039,
+		long: -95.641134
 	};
     
     var riverpointe400 = {
@@ -246,7 +246,7 @@ function initMap() {
       [medparkln.info, medparkln.lat, medparkln.long, medparkln.icon, 16],
       [springtrail.info, springtrail.lat, springtrail.long, springtrail.icon, 17],
       [evast.info, evast.lat, evast.long, evast.icon, 18],
-      [srobb.info, srobb.lat, srobb.long, srobb.icon, 19],
+      [hwy105_18059.info, hwy105_18059.lat, hwy105_18059.long, hwy105_18059.icon, 19],
       [riverpointe400.info, riverpointe400.lat, riverpointe400.long, riverpointe400.icon, 20],
     ];
 
