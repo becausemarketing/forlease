@@ -88,13 +88,16 @@ body {
     padding-bottom: 10px;
 }
 #list img{ 
-    position: relative;
+    position: absolute;
+	clip: rect(0px 100px 100px 0px);
+	height: 200px;
+    /*position: relative;
     float: left;
     height: 220px;
     width: auto;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
-    background-size:     cover;
+    background-size:     cover;*/
 }
 #listing button{
     padding: 10px;
