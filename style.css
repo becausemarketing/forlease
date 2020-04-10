@@ -88,9 +88,9 @@ body {
     padding-bottom: 10px;
 }
 #list img{ 
-    position: absolute;
+    position: relative;
 	clip: rect(0px 100px 100px 0px);
-	height: 200px;
+	height: 250px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
