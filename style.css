@@ -88,10 +88,18 @@ body {
     padding-bottom: 10px;
 }
 #list img{ 
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+    /*position: relative;
     float: left;
     height: 220px;
-    /*background-position: 50% 50%;
+    background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;*/
 }
