@@ -125,7 +125,7 @@ function initMap() {
 		long: -95.465219
 	};
 
-    var medcenterblvd = {
+    /*var medcenterblvd = {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>100 Medical Center Blvd</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
@@ -133,7 +133,7 @@ function initMap() {
         },
 		lat: 30.287212,
 		long: -95.464819
-	};
+	};*/
 
     var riverwood1020 = {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>1020 Riverwood Ct</strong><br></div></div>',
