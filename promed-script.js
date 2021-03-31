@@ -249,7 +249,7 @@ function initMap() {
 	var locations = [
       [riverwood1020.info, riverwood1020.lat, riverwood1020.long, riverwood1020.icon, 0],
       [conmeddr.info, conmeddr.lat, conmeddr.long, conmeddr.icon, 1],
-      [medcenterblvd.info, medcenterblvd.lat, medcenterblvd.long, medcenterblvd.icon, 2],
+      //[medcenterblvd.info, medcenterblvd.lat, medcenterblvd.long, medcenterblvd.icon, 2],
       [sloop336_bldg.info, sloop336_bldg.lat, sloop336_bldg.long, sloop336_bldg.icon, 3],
       [sloop336_land.info, sloop336_land.lat, sloop336_land.long, sloop336_land.icon, 4],
       [thompson.info, thompson.lat, thompson.long, thompson.icon, 5],
