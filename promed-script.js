@@ -235,7 +235,7 @@ function initMap() {
 		long: -95.277507   
 	};
     
-    var hwy105_18441 = {
+    /*var hwy105_18441 = {
 		info: '<div id="row"><div id="column"></div><div id="column"><strong>18441 Highway 105 W</strong><br></div></div>',
         icon: {
             url: 'https://dl.dropboxusercontent.com/s/em0cqrez70o9t0g/forlease.png?dl=0',
@@ -243,7 +243,7 @@ function initMap() {
         },
 		lat: 30.379445,
 		long: -95.646593   
-	};
+	};*/
 
 
 	var locations = [
@@ -269,7 +269,7 @@ function initMap() {
       [hwy105_18059.info, hwy105_18059.lat, hwy105_18059.long, hwy105_18059.icon, 19],
       [riverpointe400.info, riverpointe400.lat, riverpointe400.long, riverpointe400.icon, 20],
       [mckay18648.info, mckay18648.lat, mckay18648.long, mckay18648.icon, 21],
-      [hwy105_18441.info, hwy105_18441.lat, hwy105_18441.long, hwy105_18441.icon, 22],
+      //[hwy105_18441.info, hwy105_18441.lat, hwy105_18441.long, hwy105_18441.icon, 22],
     ];
 
 	var map = new google.maps.Map(document.getElementById('map'), {
